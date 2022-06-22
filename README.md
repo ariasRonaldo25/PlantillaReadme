@@ -15,7 +15,8 @@ desarrollo. Los conceptos de la programación orientada a objetos (clases, objet
 
 * [Requerimientos :page_facing_up:](#requerimientos)
 * [Objetivos :trophy:](#objetivos)
-* [Arquitectura :memo:](#arquitectura)
+* [Arquitectura :memo:](#diagrama-de-clases)
+* [Diagrama de clases :memo:](#arquitectura)
 * [Herramientas Utilizadas :hammer_and_wrench:](#herramientas-utilizadas)
 * [Estructura :card_index_dividers:](#estructura)
 * [Recursos :bookmark_tabs: :adult:](#recursos)
@@ -77,7 +78,14 @@ vez que se modifican los datos en el módulo Modelo, se notifican los cambios al
 y el módulo Controller están separados. Esto permite la división del trabajo. Además, debido a que la tecnología de la interfaz gráfica se actualiza 
 rápidamente y los requisitos comerciales cambian muy a menudo, es mucho mejor mantener la vista separada del controlador.
 
+## Diagrama de clases
 
+![Image](https://github.com/ariasRonaldo25/PlantillaReadme/blob/main/doc/img/arquitectura.jpg)
+
+* PythonFile: Representa el archivo de python que se creará por medio del IDE, dicho archivo contendrá todas las clases creadas por el usuario.
+* PythonClass: Representa la clase de Python creada por el usuario la cual contará con todos los atributos o relaciones (herencia) que este le defina después de su creación. 
+* Directory: Representa el directorio principal que el IDE le creará por defecto al usuario al momento de crear un nuevo proyecto, este directorio a su vez almacenará en su interior otros directorios y el archivo donde se almacenarán las clases de Python que hayan sido creadas. 
+* Proyecto: Representa el proyecto creado en el IDE por el usuario a su vez contendrá un archivo donde se encontrarán todas las clases y  la ruta del directorio sobre el cual se va a trabajar el cual será el encargado de contener todos los archivos que componen la estructura del proyecto.
 
 
 ## Herramientas Utilizadas 
