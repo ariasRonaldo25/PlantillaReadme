@@ -67,7 +67,8 @@ el aprendizaje de la programación orientada a objetos con Python.
 
 ## Arquitectura 
 
-![Image](https://github.com/Andrea-lol/prueeba/blob/main/img/arquitectura%20blue%20py.png)
+![Image](https://github.com/ariasRonaldo25/PlantillaReadme/blob/main/doc/img/arquitectura.jpg)
+![Image](https://github.com/ariasRonaldo25/PlantillaReadme/blob/main/doc/img/arquitectura%20blue%20py-%20propuesta-Descomposici%C3%B3n.jpg)
 
 La arquitectura seleccionada para el desarrollo de nuestro proyecto es la MVC II, en esta arquitectura el módulo Modelo proporciona toda la funcionalidad 
 básica y los datos compatibles con una base de datos. El módulo de vista muestra los datos mientras que el módulo de controlador toma solicitudes de entrada, 
