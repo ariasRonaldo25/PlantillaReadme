@@ -80,7 +80,7 @@ rápidamente y los requisitos comerciales cambian muy a menudo, es mucho mejor m
 
 ## Diagrama de clases
 
-![Image](https://github.com/ariasRonaldo25/PlantillaReadme/blob/main/doc/img/arquitectura.jpg)
+![Image](https://github.com/ariasRonaldo25/PlantillaReadme/blob/main/doc/img/BluePy_Model.jpg)
 
 * PythonFile: Representa el archivo de python que se creará por medio del IDE, dicho archivo contendrá todas las clases creadas por el usuario.
 * PythonClass: Representa la clase de Python creada por el usuario la cual contará con todos los atributos o relaciones (herencia) que este le defina después de su creación. 
